@@ -1,14 +1,10 @@
-N=int(input())
+N = int(input())
 for i in range(N):
-    T= int(input())
+    T = int(input())
     c = [int(x) for x in input().split()]
-    Q= int(input())
-    count=0
+    Q = int(input())
+    count = 0
     for j in range(len(c)):
-        if c[j]<=Q:
+        if c[j] <= Q:
             count += 1
     print(count)
-
-        
-    
-    
