@@ -1,9 +1,6 @@
-A = [0,1,1,0,0,1,0,1,1,1,0,0,0]
-B = []
-C = []
+A = [0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0]
 for i in range(len(A)):
-    if A[i]==0:
-        B.append(A[i])
-    else:
-        C.append(A[i])
-print(B+C)
+    for j in range(len(A) - 1):
+        if A[j] > A[j + 1]:
+            A[j + 1], A[j] = A[j], A[j + 1]
+print(A)
