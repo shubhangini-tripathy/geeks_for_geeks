@@ -1,3 +1,3 @@
 # geeks_for_geeks
 
-Solution of datastructe and algo problems in GeeksforGeeks.
+Solution of datastructure and algo problems(from GeeksforGeeks).
