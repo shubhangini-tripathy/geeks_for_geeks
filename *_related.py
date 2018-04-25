@@ -26,6 +26,13 @@
 #     i -= 1
 #     j += 1
 
+n = int(input())
+i = n
+j = 0
+while i >= 0:
+    print(" "*j+"*"*i)
+    i -= 2
+    j += 1
 
 
 
